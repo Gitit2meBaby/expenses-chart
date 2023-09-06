@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+
+<body>
+  <div class="app">
+    <section>
+      <div class="my-balance">
+        <div class="my-balance-content">
+          <p>My balance</p>
+          <h2 id="balance">$921.48</h2>
+        </div>
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="app-content">
+      <h3>Spending - Last 7 days</h3>
+      <div class="graph">
+        <div class="day-container">
+          <div data-day="mon" class="day-bar"></div>
+          <p>mon</p>
+        </div>
+        <div class="day-container">
+          <div data-day="tue" class="day-bar"></div>
+          <p>tue</p>
+        </div>
+        <div class="day-container">
+          <div data-day="wed" class="day-bar"></div>
+          <p>wed</p>
+        </div>
+        <div class="day-container">
+          <div data-day="thu" class="day-bar"></div>
+          <p>thu</p>
+        </div>
+        <div class="day-container">
+          <div data-day="fri" class="day-bar"></div>
+          <p>fri</p>
+        </div>
+        <div class="day-container">
+          <div data-day="sat" class="day-bar"></div>
+          <p>sat</p>
+        </div>
+        <div class="day-container">
+          <div data-day="sun" class="day-bar"></div>
+          <p>sun</p>
+        </div>
+      </div>
+
+
+      <div class="totals-div">
+        <div class="totals">
+          <p>Total this month</p>
+          <h1>$478.33</h1>
+        </div>
+        <div class="percent">
+          <h4>+2.4%</h4>
+          <p>from last month</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+</body>
+
+</html>
